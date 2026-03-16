@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rights Guide</title>
+    <style>
+        .section { margin: 20px 0; }
+        .content { display: none; padding: 10px; border: 1px solid #ccc; }
+        .toggle { cursor: pointer; color: blue; }
+    </style>
+    <script>
+        function toggleSection(id) {
+            const content = document.getElementById(id);
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</head>
+<body>
+    <h1>Rights Guide / உரிமைகள் வழிகாட்டி</h1>
+    <div class="section">
+        <h2 class="toggle" onclick="toggleSection('policeRights')">Police Rights / போலீசார்களின் உரிமைகள்</h2>
+        <div id="policeRights" class="content">
+            <p>In India, individuals have certain rights when interacting with the police. These include the right to be informed of the reasons for arrest, the right to legal counsel, and protection against unlawful detention.</p>
+            <p>இந்தியாவில், போலீசாருடன் தொடர்பு கொண்டு உரிமைகள் உள்ளன. இது கைது செய்யப்பட்ட காரணங்களை அறிந்துகொள்ளும் உரிமை, சட்ட ஆலோசனையைப் பெறும் உரிமை மற்றும் சட்டராக இல்லாத கைது செய்வதை எதிர்க்கும் உரிமை ஆகியவற்றை உள்ளடக்குகிறது.</p>
+        </div>
+    </div>
+    <div class="section">
+        <h2 class="toggle" onclick="toggleSection('consumerProtection')">Consumer Protection Rights / நுகர்வோர் பாதுகாப்பு உரிமைகள்</h2>
+        <div id="consumerProtection" class="content">
+            <p>Consumers have the right to receive safe products, information about products, and to seek redress in case of grievances. Consumer protection laws ensure that individuals can address their complaints against sellers.</p>
+            <p>நுகர்வோர்கள் பாதுகாப்பான தயாரிப்புகளைப் பெறுதல், தயாரிப்பு தகவல்களைப் பெறுதல் மற்றும் புகார்களை உண்மையாகப் பெறுவதற்கான உரிமை பெ��ுகிறார்கள். நுகர்வோர் பாதுகாப்பு சட்டங்கள் நுகர்வோர்களுக்குக் கிடைக்காத புகார்களை சமர்ப்பிக்க அதிகாரமாக்குகின்றன.</p>
+        </div>
+    </div>
+    <div class="section">
+        <h2 class="toggle" onclick="toggleSection('cyberCrime')">Cybercrime Laws / கணினி குற்றங்கள் சட்டங்கள்</h2>
+        <div id="cyberCrime" class="content">
+            <p>Cybercrime laws protect individuals from various internet-based crimes, including identity theft, hacking, and cyberbullying. Victims have the right to report these crimes and seek legal recourse.</p>
+            <p>கணினி ���ுற்றச் சட்டங்கள் நபர்களை அடையாள தீர்க்கிறதிலிருந்து, ஹேக்கிங் மற்றும் கணினி சுதந்திரத்திற்கான குற்றங்களுக்காகப் பாதுகாக்கின்றன. பாதிக்கப்பட்டவர்கள் இந்தக் குற்றங்களைப் புகாரளிக்க உரிமை கொண்டுள்ளனர் மற்றும் சட்ட வழிகாட்டல் பெற்றுக்கொள்ளவேண்டும்.</p>
+        </div>
+    </div>
+    <div class="section">
+        <h2 class="toggle" onclick="toggleSection('domesticViolence')">Domestic Violence Protection / பாதிக்கப்பட்ட்வர்ப்பு நோய்க்கு பாதுகாப்பு</h2>
+        <div id="domesticViolence" class="content">
+            <p>Victims of domestic violence are entitled to legal protection. Laws are in place to help them secure a safe environment and to seek help from authorities.</p>
+            <p>பாதிக்கப்பட்டவர்கள் சட்டக் காவலுக்குச் சேவிக்கப்படக்கூடிய ஆவணங்கள் உள்ளன. அவர்கள் பாதுகாப்பான சூழலை कवणம் மற்றும் அதிகாரிகளிடம் உதவிக்கு செல்லலா இருக்கும்போது உள்ளதாக உள்ளது.</p>
+        </div>
+    </div>
+</body>
+</html>
