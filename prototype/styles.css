@@ -1,0 +1,55 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background-color: #001f3f; /* Deep Blue */
+    color: #FFD700; /* Gold */
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #001f3f;
+    padding: 10px 20px;
+}
+
+.nav a {
+    color: #FFD700;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    border: 1px solid #001f3f;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.footer {
+    background-color: #001f3f;
+    color: #FFD700;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 10px;
+    }
+}
